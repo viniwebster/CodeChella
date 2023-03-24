@@ -1,0 +1,55 @@
+//footer pagina inicial
+
+footer{
+    background-color: $header;
+}
+
+.footer__container{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+    width: 100vw;
+    max-width: 1440px;
+    margin: auto;
+
+
+    .footer__socials{
+        display: flex;
+        align-items: center;
+        color: $cor-fonte;
+        font-size: 20px;
+        font-weight: 500;
+        a{
+            margin-left: 8px;
+        }
+    }
+    .footer__info{
+        color: $cor-fonte;
+        font-size: 20px;
+        a{
+            text-decoration: none;
+            color: $coral;
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    
+    .footer__container{
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    
+    .footer__container{
+        justify-content: space-around;
+    }
+    
+}

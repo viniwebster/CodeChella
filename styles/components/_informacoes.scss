@@ -1,0 +1,572 @@
+
+//infos pagina inicial
+
+#geral{
+    background: $background;
+}
+
+.informacoes__container{
+    padding: 96px 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100vw;
+    max-width: 1440px;
+    gap: 48px;    
+
+    .informacoes__imagem{
+        width: 50%;
+        margin-bottom: 32px;
+        img{
+            width: 100%;
+        }
+    }
+
+    .informacoes__conteudo{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        h6{
+            font-size: 2rem;
+            margin-bottom: 24px;
+            text-align: center;
+            color: $cor-fonte;
+            font-weight: 700;
+        }
+        p{
+            font-size: 1.2rem;
+            line-height: 40px;
+            font-weight: 500;
+            text-align: center;
+            color: $cor-fonte;
+            margin-bottom: 24px;
+        }
+        .botao{
+            padding: 8px 16px;
+            background-color: $header;
+            color: $cor-fonte;
+            font-weight: 700;
+            text-decoration: none;
+            align-self: center;
+            display: flex;
+            align-items: center;
+            border-radius: 16px;
+            box-shadow: 4px 4px 0px #444444;
+            img{
+                margin-left: 1rem;
+                align-self: center;
+            }
+
+        }
+    }
+}
+
+
+
+
+
+//informaçoes experiencia
+
+.experiencia{
+
+    padding: 64px 0;
+
+    .informacoes__imagem-experiencia{
+        width: 55%;
+        img{
+            width: 100%;
+        }
+    }
+
+    .informacoes__conteudo-experiencia{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        h6{
+            font-size: 2.2rem;
+            margin-bottom: 24px;
+            color: $cor-fonte;
+            font-weight: 700;
+        }
+        p{
+            font-size: 1.5rem;
+            line-height: 40px;
+            font-weight: 500;
+            color: $cor-fonte;
+            text-align: justify;
+        }
+    }
+}
+
+
+
+
+
+//mapa de setores 
+
+
+.seletores{
+    h6{
+        align-self: start;
+    }
+    .lista__setores{
+
+        display: flex;
+        flex-direction: column;
+
+    .lista__setores-item{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        color: $cor-fonte;
+        font-size: 20px;
+        margin-bottom: 24px;
+            .azul{
+                width: 32px;
+                height: 32px;
+                background-color: #0E7DF1;
+            }
+            .rosa{
+                width: 32px;
+                height: 32px;
+                background-color: #FE016E;
+            }
+            .agua{
+                width: 32px;
+                height: 32px;
+                background-color: #01A89E;
+
+            }
+            .azul-escuro{
+                width: 32px;
+                height: 32px;
+                background-color: #3F51B5;
+            }
+            .azul-marinho{
+                width: 32px;
+                height: 32px;
+                background-color: #0E7DF1;
+            }
+    }
+    
+}
+
+}
+.setores__detalher-titulo{
+    text-align: center;
+    color: $cor-fonte;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.setores__detalhes-container{
+    display: flex;
+    width: 100vw;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+    .setores__detalhes{
+        display: flex;
+        flex-direction: column;
+        width: 384px;
+        gap: 24px;
+        text-align: center;
+        color: $cor-fonte;
+        margin-bottom: 100px;
+        &:nth-child(2){
+            position: relative;
+            top: 108px;
+        }
+
+        h6{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        p{
+            font-size: 20px;
+            line-height: 40px;
+        }
+    }
+}
+
+
+
+//informacoes 
+
+.informacoes__container-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+    color: $cor-fonte;
+    width: 100vw;
+    max-width: 1440px;
+    margin: auto;
+        h3{
+                font-size: 2.5rem;
+                font-family: $fonte-banner;
+                margin-bottom: 48px;
+            }
+
+    .informacoes__perguntas-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    .informacoes__pergunta{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;       
+        width: 80%;
+        background-color: $header;
+        margin-top: 8px;
+        cursor: pointer;
+
+        .pergunta{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h6{
+            width: 100%;
+            padding: 1.5rem;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+    }
+    .informacoes__resposta{
+        width: 100%;
+        background-color:#C8DEEF;
+        padding: 1.5rem;
+        p{
+            color: #444444;
+            line-height: 40px;
+            font-size: 20px;
+        }
+    }  
+    .invisivel{
+            display: none;
+        } 
+    }
+    
+}
+
+
+
+
+//ingresso 
+
+.informacoes__container-info{
+    .formulario{
+        width: 100%;
+        margin: auto;
+        
+        form{
+
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 50%;
+            margin: auto;
+
+            label{
+                font-size: 2rem;
+                font-weight: 700;
+            }
+            #nome, #email{
+                width: 100%;
+                grid-column: 1/3;
+                padding: 1.3rem;
+            }
+            input, select{
+                height: 48px;
+                box-sizing: border-box;
+                margin-bottom: 32px;
+            }
+
+            #data, #ingresso{
+                box-sizing: border-box;
+                width:100%;
+            }
+            
+            .botao{
+                padding: 8px 16px;
+                width: 164px;
+                background-color: $header;
+                color: $cor-fonte;
+                font-weight: 700;
+                text-decoration: none;
+                text-align: center;
+                border-radius: 16px;
+                box-shadow: 4px 4px 0px #444444;
+        
+            }
+            
+        }
+    }
+}
+
+
+
+
+//checkout
+
+
+.informacoes__container{
+    .informacoes__conteudo{
+        margin: auto;
+        .ticket__container{
+            background: $background;
+            padding: 32px;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+            .ticket__titulo{
+                display: flex;
+                justify-content: space-between;
+            }
+            .ticket__infos{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 48px;
+
+                .ticket__infos-itens{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    color: $cor-fonte;
+                    li{
+                        font-size:20px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    // a experiencia
+
+    .experiencia{
+
+        padding: 64px 0;
+    
+        .informacoes__imagem-experiencia{
+            width: 55%;
+            img{
+                width: 100%;
+            }
+        }
+    
+        .informacoes__conteudo-experiencia{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 50%;
+            h6{
+                font-size: 2.2rem;
+                margin-bottom: 24px;
+                color: $cor-fonte;
+                font-weight: 700;
+            }
+            p{
+                font-size: 1.5rem;
+                line-height: 40px;
+                font-weight: 500;
+                color: $cor-fonte;
+                text-align: justify;
+            }
+        }
+    }
+    
+
+
+    //setores
+    .setores__detalhes-container{     
+        justify-content: center; 
+        gap: 32px;
+        .setores__detalhes{ 
+            margin-bottom: 0%;
+            &:nth-child(2){
+                top:0;
+            }
+    }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    
+    body{
+        overflow-x: hidden;
+    }
+
+
+    .informacoes__container{
+        flex-direction: column;
+        .informacoes__conteudo{
+            width: 80%;
+        }
+
+    }
+
+    
+
+
+//experiencia
+
+    .experiencia{
+
+        .informacoes__imagem-experiencia{
+            width: 80%;
+            img{
+                width: 100%;
+                order: 0;
+            }
+        }
+    
+        .informacoes__conteudo-experiencia{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 80%;
+            order: 1;
+    
+        }
+            
+    }
+
+
+
+
+//setores
+
+.seletores {
+    align-items: center;
+    h6{
+        align-self: center;
+    }
+    .informacoes__conteudo{
+        align-items: center;
+    }
+}
+    .setores__detalhes-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        .setores__detalhes{   
+            width: 70%;  
+            &:nth-child(2){
+                position: static;
+            }
+    }
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+
+//informacoes
+
+    .informacoes__container-info{
+            h3{
+                    text-align: center;
+                }
+
+    }
+
+
+
+
+
+//ticket
+
+    .informacoes__container{
+        .informacoes__imagem{
+            width: 80%;
+            margin-bottom: 32px;
+            img{
+                width: 100%;
+            }
+        }
+        .informacoes__conteudo{
+            .ticket__container{
+                .ticket__titulo{
+                    justify-content: space-evenly;
+                    img{
+                        width: 80%;
+                    }
+                }
+                .ticket__infos{
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+
+
+//formulario
+
+
+    .informacoes__container-info{
+        .formulario{
+            width: 80%;
+            margin: auto;
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                margin: auto;
+                gap: 0;
+                input, select{
+                    height: 48px;
+                    box-sizing: border-box;
+                    margin-bottom: 32px;
+                }
+                #data, #ingresso{
+                    box-sizing: border-box;
+                    width:100%;
+                }
+                .botao{
+                    align-self: center;
+                }
+            }
+        }
+    }
+}
+
+

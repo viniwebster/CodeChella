@@ -1,0 +1,177 @@
+
+@mixin fontebanner($tamanho-fonte){
+    font-size: $tamanho-fonte;
+    text-align: center;
+    font-family: $fonte-banner;
+    color: $cor-fonte;
+    line-height: 1.2;
+}
+
+//banner pagina inicial
+
+#banner{
+    background: url('/assets/Tema\ Boreal/Desktop/Imagens/1 - Banner - homepage.png');
+    background-size: cover;
+    height: 407px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .banner__title{
+        @include fontebanner(4rem)
+    }
+}
+
+
+
+
+//banner rodapé
+
+#banner__rodape{
+    background:  url('/assets/Tema\ Boreal/Desktop/Imagens/1 - Imagem - homepage2.png');
+    background-size: cover;
+    mix-blend-mode: multiply;
+    height: 340px;
+}
+
+
+
+
+
+//banner experiencia 
+
+#banner__experiencia{
+    background: url('/assets/Tema\ Boreal/Desktop/Imagens/2 - Banner - A Experiência.png');
+    background-size: cover;
+    background-position: bottom;
+    height: 407px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .banner__title{
+        @include fontebanner(4rem)
+    }
+}
+
+
+
+
+
+//banner setores
+
+#banner__setores{
+    background: url('/assets/Tema\ Boreal/Desktop/Imagens/3 - Banner - Mapa de setores.png');
+    background-size: cover;
+    background-position: bottom;
+    height: 407px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .banner__title{
+        @include fontebanner(4rem)
+    }
+}
+
+
+
+
+//banner informaçoes 
+
+#banner__informacoes{
+    background: url('/assets/Tema\ Boreal/Desktop/Imagens/4 - Banner - Infos gerais.png');
+    background-size: cover;
+    background-position: bottom;
+    height: 407px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .banner__title{
+        @include fontebanner(4rem)
+    }
+}
+
+
+
+//banner ingresso 
+
+#banner__ingresso{
+    background: url('/assets/Tema\ Boreal/Desktop/Imagens/5 - Banner - garanta seu ingresso.png');
+    background-size: cover;
+    background-position: bottom;
+    height: 407px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .banner__title{
+        @include fontebanner(4rem)
+    }
+}
+
+
+
+// banner ingresso comprado
+
+#banner__ingresso-comprado{
+    background: url('/assets/Tema\ Boreal/Desktop/Imagens/6 - Banner - Seu ingresso está aqui.png');
+    background-size: cover;
+    background-position: center;
+    height: 407px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .banner__title{
+        @include fontebanner(4rem)
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 425px){
+
+    #banner{
+        .banner__title{
+            @include fontebanner(2.5rem)
+        }
+    }
+
+
+
+    #banner__experiencia{
+        .banner__title{
+            @include fontebanner(3rem)
+        }
+    }
+
+
+    #banner__setores{
+        .banner__title{
+            @include fontebanner(3rem)
+        }
+    }
+
+
+    #banner__informacoes{
+        .banner__title{
+            @include fontebanner(3rem)
+        }
+    }
+
+
+    #banner__ingresso{
+        .banner__title{
+            @include fontebanner(3rem)
+        }
+    }
+
+    #banner__ingresso-comprado{
+        .banner__title{
+            @include fontebanner(3rem)
+        }
+    }
+
+
+
+}
