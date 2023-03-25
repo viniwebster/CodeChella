@@ -513,11 +513,15 @@ header .header__container .header__botoes .header__itens {
   flex-wrap: wrap;
   gap: 48px;
 }
+.informacoes__container .informacoes__conteudo .ticket__container .ticket__infos h6 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
 .informacoes__container .informacoes__conteudo .ticket__container .ticket__infos .ticket__infos-itens {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: start;
   color: #FFF;
 }
 .informacoes__container .informacoes__conteudo .ticket__container .ticket__infos .ticket__infos-itens li {
@@ -654,6 +658,9 @@ header .header__container .header__botoes .header__itens {
   }
   .informacoes__container-info .formulario form .botao {
     align-self: center;
+  }
+  .informacoes__container .informacoes__conteudo .ticket__container .ticket__infos .ticket__infos-itens {
+    align-items: center;
   }
 }
 .line-up__container {

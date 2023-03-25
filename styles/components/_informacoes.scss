@@ -343,12 +343,16 @@
                 display: flex;
                 flex-wrap: wrap;
                 gap: 48px;
+                h6{
+                    font-size: 1.3rem;
+                    font-weight: 700;
+                }
 
                 .ticket__infos-itens{
                     display: flex;
                     flex-direction: column;
                     justify-content: space-evenly;
-                    align-items: center;
+                    align-items: start;
                     color: $cor-fonte;
                     li{
                         font-size:20px;
@@ -568,6 +572,20 @@
                 }
                 .botao{
                     align-self: center;
+                }
+            }
+        }
+    }
+
+
+    //checkout 
+    .informacoes__container{
+        .informacoes__conteudo{
+            .ticket__container{
+                .ticket__infos{
+                    .ticket__infos-itens{
+                        align-items: center;                    
+                    }
                 }
             }
         }

@@ -34,3 +34,13 @@ perguntas.forEach((event)=>{
 
 
 
+function adicionaNoIngresso(nome, setor) {
+    localStorage.setItem('nome', nome);
+    localStorage.setItem('setor', setor);
+}
+
+const nomeIngresso = document.getElementById('ticket_nome');
+const tipoIngresso = document.getElementById('ticket_setor');
+
+nomeIngresso.innerHTML = localStorage.nome;
+tipoIngresso.innerHTML = localStorage.setor;   
