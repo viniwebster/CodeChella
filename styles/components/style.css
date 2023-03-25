@@ -450,11 +450,12 @@ header .header__container .header__botoes .header__itens {
   margin: auto;
 }
 .informacoes__container-info .formulario form {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
   flex-wrap: wrap;
+  grid-template-columns: 50% 50%;
   width: 50%;
   margin: auto;
+  gap: 32px;
 }
 .informacoes__container-info .formulario form label {
   font-size: 2rem;
@@ -462,13 +463,17 @@ header .header__container .header__botoes .header__itens {
 }
 .informacoes__container-info .formulario form #nome, .informacoes__container-info .formulario form #email {
   width: 100%;
-  grid-column: 1/3;
   padding: 1.3rem;
+}
+.informacoes__container-info .formulario form .nome {
+  grid-column: 1/3;
+}
+.informacoes__container-info .formulario form .email {
+  grid-column: 1/3;
 }
 .informacoes__container-info .formulario form input, .informacoes__container-info .formulario form select {
   height: 48px;
   box-sizing: border-box;
-  margin-bottom: 32px;
 }
 .informacoes__container-info .formulario form #data, .informacoes__container-info .formulario form #ingresso {
   box-sizing: border-box;
@@ -484,6 +489,8 @@ header .header__container .header__botoes .header__itens {
   text-align: center;
   border-radius: 16px;
   box-shadow: 4px 4px 0px #444444;
+  margin: auto;
+  grid-column: 1/3;
 }
 
 .informacoes__container .informacoes__conteudo {
