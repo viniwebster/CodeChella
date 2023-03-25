@@ -10,7 +10,7 @@
 //banner pagina inicial
 
 #banner{
-    background: url('/assets/Tema\ Boreal/Desktop/Imagens/1 - Banner - homepage.png');
+    background: url('../../assets/Tema\ Boreal/Desktop/Imagens/1 - Banner - homepage.png');
     background-size: cover;
     height: 407px;
     display: flex;
@@ -27,7 +27,7 @@
 //banner rodapé
 
 #banner__rodape{
-    background:  url('/assets/Tema\ Boreal/Desktop/Imagens/1 - Imagem - homepage2.png');
+    background:  url('../../assets/Tema\ Boreal/Desktop/Imagens/1 - Imagem - homepage2.png');
     background-size: cover;
     mix-blend-mode: multiply;
     height: 340px;
@@ -40,7 +40,7 @@
 //banner experiencia 
 
 #banner__experiencia{
-    background: url('/assets/Tema\ Boreal/Desktop/Imagens/2 - Banner - A Experiência.png');
+    background: url('../../assets/Tema\ Boreal/Desktop/Imagens/2 - Banner - A Experiência.png');
     background-size: cover;
     background-position: bottom;
     height: 407px;
@@ -59,7 +59,7 @@
 //banner setores
 
 #banner__setores{
-    background: url('/assets/Tema\ Boreal/Desktop/Imagens/3 - Banner - Mapa de setores.png');
+    background: url('../../assets/Tema\ Boreal/Desktop/Imagens/3 - Banner - Mapa de setores.png');
     background-size: cover;
     background-position: bottom;
     height: 407px;
@@ -77,7 +77,7 @@
 //banner informaçoes 
 
 #banner__informacoes{
-    background: url('/assets/Tema\ Boreal/Desktop/Imagens/4 - Banner - Infos gerais.png');
+    background: url('../../assets/Tema\ Boreal/Desktop/Imagens/4 - Banner - Infos gerais.png');
     background-size: cover;
     background-position: bottom;
     height: 407px;
@@ -94,7 +94,7 @@
 //banner ingresso 
 
 #banner__ingresso{
-    background: url('/assets/Tema\ Boreal/Desktop/Imagens/5 - Banner - garanta seu ingresso.png');
+    background: url('../../assets/Tema\ Boreal/Desktop/Imagens/5 - Banner - garanta seu ingresso.png');
     background-size: cover;
     background-position: bottom;
     height: 407px;
@@ -111,7 +111,7 @@
 // banner ingresso comprado
 
 #banner__ingresso-comprado{
-    background: url('/assets/Tema\ Boreal/Desktop/Imagens/6 - Banner - Seu ingresso está aqui.png');
+    background: url('../../assets/Tema\ Boreal/Desktop/Imagens/6 - Banner - Seu ingresso está aqui.png');
     background-size: cover;
     background-position: center;
     height: 407px;
@@ -173,5 +173,10 @@
     }
 
 
+    //banner rodapé
+
+    #banner__rodape{
+        background:  url('../../assets/Tema\ Boreal/Mobile/Imagens/1 - Homepage2.png');
+    }
 
 }

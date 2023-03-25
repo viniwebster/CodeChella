@@ -136,7 +136,7 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
 
 
 .line-up__container{    
@@ -147,22 +147,15 @@
         width: 25%;
     }
    .line-up__subtitle{
-        font-size: 2.2rem;
+        font-size: 1rem;
         margin: 0;
 } 
 }
 
 .line-up{
-    width: 100vw;
-    max-width: 1440px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    margin-bottom: 60px;
 
     .lineup__principal{
-        font-size: 3rem;
+        font-size: 2.5rem;
         color: $cor-fonte;
         text-align: center;
         font-weight: 800;
@@ -170,13 +163,13 @@
     }
     .line-up__bands{
         .line-up__linhaum{
-            font-size: 2.5rem;
+            font-size: 1.7rem;
             color: $cor-fonte;
             font-weight: 700;
         }
         .line-up__linhadois, 
         .line-up__linhatres{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             color: $cor-fonte;
             font-weight: 700;
         }

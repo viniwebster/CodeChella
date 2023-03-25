@@ -73,7 +73,7 @@ header .header__container .header__botoes .header__itens {
   }
 }
 #banner {
-  background: url("/assets/Tema Boreal/Desktop/Imagens/1 - Banner - homepage.png");
+  background: url("../../assets/Tema Boreal/Desktop/Imagens/1 - Banner - homepage.png");
   background-size: cover;
   height: 407px;
   display: flex;
@@ -89,14 +89,14 @@ header .header__container .header__botoes .header__itens {
 }
 
 #banner__rodape {
-  background: url("/assets/Tema Boreal/Desktop/Imagens/1 - Imagem - homepage2.png");
+  background: url("../../assets/Tema Boreal/Desktop/Imagens/1 - Imagem - homepage2.png");
   background-size: cover;
   mix-blend-mode: multiply;
   height: 340px;
 }
 
 #banner__experiencia {
-  background: url("/assets/Tema Boreal/Desktop/Imagens/2 - Banner - A Experiência.png");
+  background: url("../../assets/Tema Boreal/Desktop/Imagens/2 - Banner - A Experiência.png");
   background-size: cover;
   background-position: bottom;
   height: 407px;
@@ -113,7 +113,7 @@ header .header__container .header__botoes .header__itens {
 }
 
 #banner__setores {
-  background: url("/assets/Tema Boreal/Desktop/Imagens/3 - Banner - Mapa de setores.png");
+  background: url("../../assets/Tema Boreal/Desktop/Imagens/3 - Banner - Mapa de setores.png");
   background-size: cover;
   background-position: bottom;
   height: 407px;
@@ -130,7 +130,7 @@ header .header__container .header__botoes .header__itens {
 }
 
 #banner__informacoes {
-  background: url("/assets/Tema Boreal/Desktop/Imagens/4 - Banner - Infos gerais.png");
+  background: url("../../assets/Tema Boreal/Desktop/Imagens/4 - Banner - Infos gerais.png");
   background-size: cover;
   background-position: bottom;
   height: 407px;
@@ -147,7 +147,7 @@ header .header__container .header__botoes .header__itens {
 }
 
 #banner__ingresso {
-  background: url("/assets/Tema Boreal/Desktop/Imagens/5 - Banner - garanta seu ingresso.png");
+  background: url("../../assets/Tema Boreal/Desktop/Imagens/5 - Banner - garanta seu ingresso.png");
   background-size: cover;
   background-position: bottom;
   height: 407px;
@@ -164,7 +164,7 @@ header .header__container .header__botoes .header__itens {
 }
 
 #banner__ingresso-comprado {
-  background: url("/assets/Tema Boreal/Desktop/Imagens/6 - Banner - Seu ingresso está aqui.png");
+  background: url("../../assets/Tema Boreal/Desktop/Imagens/6 - Banner - Seu ingresso está aqui.png");
   background-size: cover;
   background-position: center;
   height: 407px;
@@ -222,6 +222,9 @@ header .header__container .header__botoes .header__itens {
     font-family: "Calistoga", cursive;
     color: #FFF;
     line-height: 1.2;
+  }
+  #banner__rodape {
+    background: url("../../assets/Tema Boreal/Mobile/Imagens/1 - Homepage2.png");
   }
 }
 #geral {
@@ -764,7 +767,7 @@ header .header__container .header__botoes .header__itens {
     font-weight: 500;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .line-up__container .data {
     justify-content: space-between;
   }
@@ -773,33 +776,24 @@ header .header__container .header__botoes .header__itens {
     width: 25%;
   }
   .line-up__container .data .line-up__subtitle {
-    font-size: 2.2rem;
+    font-size: 1rem;
     margin: 0;
   }
-  .line-up__container .line-up {
-    width: 100vw;
-    max-width: 1440px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    margin-bottom: 60px;
-  }
   .line-up__container .line-up .lineup__principal {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #FFF;
     text-align: center;
     font-weight: 800;
     margin-bottom: 32px;
   }
   .line-up__container .line-up .line-up__bands .line-up__linhaum {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     color: #FFF;
     font-weight: 700;
   }
   .line-up__container .line-up .line-up__bands .line-up__linhadois,
   .line-up__container .line-up .line-up__bands .line-up__linhatres {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #FFF;
     font-weight: 700;
   }
