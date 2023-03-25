@@ -33,8 +33,6 @@ perguntas.forEach((event)=>{
 })
 
 
-
-
 //adiciona informaçoes do fomulario no ingresso
 function adicionaNoIngresso(nome, setor) {
     localStorage.setItem('nome', nome);
