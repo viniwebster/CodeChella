@@ -42,6 +42,5 @@ function adicionaNoIngresso(nome, setor) {
 
 const nomeIngresso = document.getElementById('ticket_nome');
 const tipoIngresso = document.getElementById('ticket_setor');
-
 nomeIngresso.innerHTML = localStorage.nome;
 tipoIngresso.innerHTML = localStorage.setor;   
