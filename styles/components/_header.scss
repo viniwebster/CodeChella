@@ -30,6 +30,9 @@ header{
         font-weight: 700;
         font-size: 20px;
         gap: 32px;
+        &:hover{
+            color: $coral;
+        }
     }  
     }
     

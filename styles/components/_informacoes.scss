@@ -53,6 +53,9 @@
             align-items: center;
             border-radius: 16px;
             box-shadow: 4px 4px 0px #444444;
+            &:hover{
+                background-color: $coral;
+            }
             img{
                 margin-left: 1rem;
                 align-self: center;
@@ -241,7 +244,7 @@
             font-weight: 700;
         }
     }
-    
+
     .informacoes__resposta{
         width: 100%;
         background-color:#C8DEEF;
@@ -317,6 +320,9 @@
                 box-shadow: 4px 4px 0px #444444;
                 margin: auto;
                 grid-column: 1/3;
+                &:hover{
+                    background-color: $coral;
+                }
             }
             
         }

@@ -30,6 +30,9 @@ footer{
         a{
             text-decoration: none;
             color: $coral;
+            &:hover{
+                border-bottom: 2px solid $coral;
+            }
         }
     }
 
