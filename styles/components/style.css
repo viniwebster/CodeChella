@@ -414,12 +414,13 @@ header .header__container .header__botoes .header__itens {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 80%;
 }
 .informacoes__container-info .informacoes__perguntas-container .informacoes__pergunta {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   background-color: #4650BD;
   margin-top: 8px;
   cursor: pointer;

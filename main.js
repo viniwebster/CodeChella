@@ -19,14 +19,16 @@ const perguntas = document.querySelectorAll('.informacoes__pergunta');
 perguntas.forEach((event)=>{
     event.addEventListener('click', ()=>{
 
+        const seta = event.querySelector('.arrow');
         const resposta = event.querySelector('[data-invisivel]')
         const mostraResposta = resposta.classList[1]
-        console.log(resposta);
 
         if(mostraResposta == 'invisivel'){
-            resposta.classList.remove('invisivel')
+            resposta.classList.remove('invisivel');
+            seta.style.transform = "rotate("+180+"deg)";
         }else{
-            resposta.classList.add('invisivel')
+            resposta.classList.add('invisivel');
+            seta.style.transform = "rotate("+360+"deg)";
         }
 
     })

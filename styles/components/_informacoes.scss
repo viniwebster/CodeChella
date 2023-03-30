@@ -218,12 +218,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 80%;
 
     .informacoes__pergunta{
         display: flex;
         align-items: center;
         flex-wrap: wrap;       
-        width: 80%;
+        width: 100%;
         background-color: $header;
         margin-top: 8px;
         cursor: pointer;
