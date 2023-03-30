@@ -50,16 +50,16 @@
                     <form id="form" action="checkout.html" method="get" onsubmit="adicionaNoIngresso(nome.value, ingresso.value)">
                         <div class="nome">
                             <label name="nome" for="nome">Nome Completo:</label>
-                            <input name="nome"type="text"id="nome" placeholder="Nome">
+                            <input name="nome"type="text"id="nome" placeholder="Nome" pattern="[aA-zZ\s]+$" required title="Insira apenas letras">
                         </div>
                         <div class="email">
                             <label for="email">Email:</label>
-                            <input type="email" id="email" placeholder="Email">
+                            <input type="email" id="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Insira um email válido: exemplo@email.com">
                         </div>
 
                         <div>
                             <label for="ingresso">Setor:</label><br>
-                            <select name="ingresso" id="ingresso">
+                            <select name="ingresso" id="ingresso" required>
                                 <option value=""></option>
                                 <option value="Pista Premium">Pista Premium</option>
                                 <option value="Pista Comum">Pista Comum</option>

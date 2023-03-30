@@ -485,6 +485,9 @@ header .header__container .header__botoes .header__itens:hover {
   height: 48px;
   box-sizing: border-box;
 }
+.informacoes__container-info .formulario form input:invalid, .informacoes__container-info .formulario form select:invalid {
+  border-color: red;
+}
 .informacoes__container-info .formulario form #data, .informacoes__container-info .formulario form #ingresso {
   box-sizing: border-box;
   width: 100%;
