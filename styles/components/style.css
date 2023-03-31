@@ -11,7 +11,7 @@ header .header__container {
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: auto;
   justify-content: space-between;
   align-items: center;
@@ -48,7 +48,7 @@ header .header__container .header__botoes .header__itens:hover {
 @media screen and (max-width: 425px) {
   header .header__container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
   header .header__container .logo a img {
     width: 150px;
@@ -71,7 +71,7 @@ header .header__container .header__botoes .header__itens:hover {
     text-align: center;
   }
   header .header__container .header__botoes a:last-child {
-    padding-bottom: none;
+    padding-bottom: 0;
     border-bottom: none;
   }
 }
@@ -241,7 +241,7 @@ header .header__container .header__botoes .header__itens:hover {
   align-items: center;
   margin: auto;
   width: 100vw;
-  max-width: 1440px;
+  max-width: 1200px;
   gap: 48px;
 }
 .informacoes__container .informacoes__imagem {
@@ -372,7 +372,7 @@ header .header__container .header__botoes .header__itens:hover {
 .setores__detalhes-container {
   display: flex;
   width: 100vw;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: auto;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -408,7 +408,7 @@ header .header__container .header__botoes .header__itens:hover {
   padding: 48px 0;
   color: #FFF;
   width: 100vw;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: auto;
 }
 .informacoes__container-info h3 {
@@ -678,7 +678,7 @@ header .header__container .header__botoes .header__itens:hover {
 }
 .line-up__container {
   width: 100vw;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: auto;
 }
 .line-up__container .line-up__title {
@@ -700,7 +700,7 @@ header .header__container .header__botoes .header__itens:hover {
 }
 .line-up__container .data .line-up__subtitle {
   margin: 30px;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-family: "Calistoga", cursive;
   text-transform: uppercase;
   color: #FFF;
@@ -709,7 +709,7 @@ header .header__container .header__botoes .header__itens:hover {
 }
 .line-up__container .line-up {
   width: 100vw;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -758,7 +758,7 @@ header .header__container .header__botoes .header__itens:hover {
   }
   .line-up__container .line-up {
     width: 100vw;
-    max-width: 1440px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -831,7 +831,7 @@ footer {
   align-items: center;
   padding: 4rem 0;
   width: 100vw;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: auto;
 }
 .footer__container .footer__socials {
